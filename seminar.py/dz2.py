@@ -41,14 +41,14 @@
 # Random для и получения случайного int
 
 
-n = int(input('Введите размер списка N: '))
-import random
-sps = []
-for i in range(n):
-    sps.append(random.randint(0,100))
-print("Исходный список: ", sps)
-for i in range(n):
-    j = random.randint(0, n-1)
-    element=sps.pop(j)
-    sps.append(element)
-print("Перемешанный список: ", sps)
+# n = int(input('Введите размер списка N: '))
+# import random
+# sps = []
+# for i in range(n):
+#     sps.append(random.randint(0,100))
+# print("Исходный список: ", sps)
+# for i in range(n):
+#     j = random.randint(0, n-1)
+#     element=sps.pop(j)
+#     sps.append(element)
+# print("Перемешанный список: ", sps)
